@@ -2,6 +2,8 @@
 
 > A sophisticated prompt engineering engine that transforms vague ideas into production-ready prompts instantly.
 
+**🚀 [Try it out on Gemini](https://gemini.google.com/gem/1aC3M2wLvyuo07zXnp5Fz1-iKLUIKRx66?usp=sharing)**
+
 ## Description
 
 This prompt creates an **Autonomous Prompt Factory** - an advanced prompt engineer that doesn't ask questions. Instead, it uses strategic inference to fill in missing details and automatically applies best practices like Chain-of-Thought, Few-Shot examples, and structured formatting.
