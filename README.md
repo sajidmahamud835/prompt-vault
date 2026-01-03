@@ -15,6 +15,8 @@ prompt-vault/
 
 Each prompt is designed to be used as a **system prompt** for LLMs like GPT-4, Claude, Gemini, etc. Simply copy the content and paste it into your AI assistant's system instructions.
 
+> **Tip:** Use the [Prompt Architect](prompts/prompt-architect.md) to generate high-quality prompts for your specific needs.
+
 ## 📝 Prompts
 
 | Prompt | Description |
@@ -31,6 +33,20 @@ Each prompt is designed to be used as a **system prompt** for LLMs like GPT-4, C
 ## 📜 License
 
 MIT License - Feel free to use and modify these prompts.
+
+---
+
+## 🔗 Related Projects
+
+Check out these other AI-powered projects:
+
+- **[MarketSync EA](../MarketSync-EA)** - AI-Powered MetaTrader 5 Expert Advisor using GPT-4.
+- **[Antigravity Jules Integration](../antigravity-jules-integration)** - VS Code extension for autonomous AI agents.
+- **[WhatsApp Bot](../whatsapp-bot)** - Automation bot with programmable responses.
+
+## 🏷️ Tags
+
+`LLM` `Prompts` `GPT-4` `Claude` `AI Engineering` `System Prompts` `Meta-Prompting`
 
 ---
 
