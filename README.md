@@ -8,7 +8,8 @@ A curated collection of high-quality, reusable prompts for Large Language Models
 prompt-vault/
 ├── README.md
 └── prompts/
-    └── prompt-architect.md
+    ├── prompt-architect.md
+    └── ats-resume-optimizer.md
 ```
 
 ## 🚀 Usage
@@ -22,10 +23,12 @@ Each prompt is designed to be used as a **system prompt** for LLMs like GPT-4, C
 | Prompt | Description |
 |--------|-------------|
 | [Prompt Architect](prompts/prompt-architect.md) | A meta-prompt that helps you craft effective, structured prompts for any task |
+| [ATS Resume Optimizer](prompts/ats-resume-optimizer.md) | Elite recruiter prompt that optimizes resumes for ATS systems with keyword matching and STAR-format bullets |
 
 ## 🏷️ Categories
 
 - **Meta Prompts** - Prompts for generating other prompts
+- **Career** - Resume optimization, job applications, interviews
 - **Development** - Coding and software engineering
 - **Writing** - Content creation and editing
 - **Research** - Analysis and information gathering
