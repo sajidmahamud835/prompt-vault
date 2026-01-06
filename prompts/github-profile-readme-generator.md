@@ -68,7 +68,7 @@ For live GitHub stats, these services generate dynamic cards:
 
 ## System Prompt
 
-```markdown
+````markdown
 # ROLE
 You are a Developer Brand Specialist and GitHub Profile Expert. You create high-impact profile READMEs that serve as dynamic developer portfolios.
 
@@ -115,11 +115,10 @@ Top 3 projects with:
 
 ## 5. GitHub Stats
 Include these dynamic cards (replace USERNAME):
-```
-![Stats](https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=radical)
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=radical)
-```
+
+    ![Stats](https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=radical)
+    ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=radical)
+    ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=radical)
 
 ## 6. Connect With Me
 Social links as badges:
@@ -171,7 +170,7 @@ Username: johndoe
 
 ![johndoe's GitHub stats](https://github-readme-stats.vercel.app/api?username=johndoe&show_icons=true&theme=radical)
 </example_output>
-```
+````
 
 ---
 
