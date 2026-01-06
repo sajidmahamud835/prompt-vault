@@ -9,7 +9,8 @@ prompt-vault/
 ├── README.md
 └── prompts/
     ├── prompt-architect.md
-    └── ats-resume-optimizer.md
+    ├── ats-resume-optimizer.md
+    └── github-profile-readme-generator.md
 ```
 
 ## 🚀 Usage
@@ -24,11 +25,13 @@ Each prompt is designed to be used as a **system prompt** for LLMs like GPT-4, C
 |--------|-------------|
 | [Prompt Architect](prompts/prompt-architect.md) | A meta-prompt that helps you craft effective, structured prompts for any task |
 | [ATS Resume Optimizer](prompts/ats-resume-optimizer.md) | Elite recruiter prompt that optimizes resumes for ATS systems with keyword matching and STAR-format bullets |
+| [GitHub Profile README Generator](prompts/github-profile-readme-generator.md) | Create stunning, recruiter-ready GitHub profile pages with badges, stats, and featured projects |
 
 ## 🏷️ Categories
 
 - **Meta Prompts** - Prompts for generating other prompts
 - **Career** - Resume optimization, job applications, interviews
+- **Developer Branding** - GitHub profiles, portfolio pages, personal sites
 - **Development** - Coding and software engineering
 - **Writing** - Content creation and editing
 - **Research** - Analysis and information gathering
