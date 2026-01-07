@@ -1,0 +1,100 @@
+name: 🎯 Prompt Request
+description: Request a new prompt for the vault
+title: "[PROMPT REQUEST]: "
+labels: ["prompt-request", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Request a New Prompt
+        Fill out this form and we'll create a polished, production-ready prompt for you!
+        
+        > **Tip:** You can also generate prompts instantly using our [Prompt Architect](../prompts/prompt-architect.md).
+
+  - type: input
+    id: prompt-name
+    attributes:
+      label: Prompt Name
+      description: What should this prompt be called?
+      placeholder: "e.g., Email Subject Line Generator"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category best fits this prompt?
+      options:
+        - Marketing & Sales
+        - Career & Professional
+        - Developer Tools
+        - Writing & Content
+        - Research & Analysis
+        - Education & Learning
+        - Creative & Design
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What should this prompt do?
+      description: Describe the task or goal in detail. The more context, the better the prompt!
+      placeholder: |
+        Example: "I need a prompt that takes a blog post topic and generates 10 viral headline options using proven copywriting formulas like numbers, curiosity gaps, and power words."
+    validations:
+      required: true
+
+  - type: textarea
+    id: target-audience
+    attributes:
+      label: Target Audience
+      description: Who will use this prompt? What's their skill level or industry?
+      placeholder: "e.g., SaaS marketers, beginner programmers, content creators"
+    validations:
+      required: false
+
+  - type: textarea
+    id: example-input
+    attributes:
+      label: Example Input (Optional)
+      description: Provide a sample input you'd give to this prompt
+      placeholder: "e.g., Topic: 'How to start a side hustle in 2024'"
+    validations:
+      required: false
+
+  - type: textarea
+    id: example-output
+    attributes:
+      label: Ideal Output (Optional)
+      description: What should the perfect output look like?
+      placeholder: |
+        1. "I Made $5,000 Last Month With This Side Hustle (No Experience Needed)"
+        2. "The 2024 Side Hustle That's Replacing 9-to-5 Jobs"
+        ...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgently do you need this?
+      options:
+        - Low (Just an idea)
+        - Medium (Would be helpful soon)
+        - High (Need it for a project)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I've checked existing prompts and this doesn't exist yet
+          required: true
+        - label: I understand the Prompt Architect can generate prompts instantly
+          required: true
