@@ -2,7 +2,7 @@
 
 A curated collection of high-quality, reusable prompts for Large Language Models (LLMs).
 
-[![Prompts](https://img.shields.io/badge/Prompts-5-blue?style=flat-square)](prompts/)
+[![Prompts](https://img.shields.io/badge/Prompts-6-blue?style=flat-square)](prompts/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Request Prompt](https://img.shields.io/badge/Request-New%20Prompt-orange?style=flat-square)](https://github.com/sajidmahamud835/prompt-vault/issues/new?template=prompt-request.yml)
 
@@ -28,8 +28,9 @@ Can't find what you need? **[Request a new prompt →](https://github.com/sajidm
 | Prompt | Category | Description |
 |--------|----------|-------------|
 | [🏭 Prompt Architect](prompts/prompt-architect.md) | Meta | Generate any prompt from a vague idea |
+| ⭐ [🎤 UGC Script Writer](prompts/ugc-script-writer.md) | Marketing | Authentic dialogue scripts (no visuals, just words) |
 | [📝 Direct Response Copywriter](prompts/direct-response-copywriter.md) | Marketing | High-conversion sales copy (PAS + AIDA) |
-| [🎬 Viral Video Script Generator](prompts/viral-video-script-generator.md) | Marketing | TikTok/Reels/Shorts scripts that convert |
+| [🎬 Viral Video Script Generator](prompts/viral-video-script-generator.md) | Marketing | Full production scripts with visual direction |
 | [📄 ATS Resume Optimizer](prompts/ats-resume-optimizer.md) | Career | Beat ATS systems with keyword optimization |
 | [💻 GitHub Profile README](prompts/github-profile-readme-generator.md) | Developer | Stunning GitHub profile pages |
 
@@ -78,6 +79,7 @@ prompt-vault/
 ├── README.md
 ├── prompts/
 │   ├── prompt-architect.md
+│   ├── ugc-script-writer.md          ⭐ NEW
 │   ├── direct-response-copywriter.md
 │   ├── viral-video-script-generator.md
 │   ├── ats-resume-optimizer.md
